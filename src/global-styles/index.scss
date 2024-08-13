@@ -1,0 +1,11 @@
+/* Tailwind imports */
+.tailwind {
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+}
+
+/* Project Imports */
+@import "_reset.scss";
+@import "_layout.scss";
+@import "_controls.scss";

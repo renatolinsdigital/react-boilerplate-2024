@@ -1,0 +1,25 @@
+.title {
+  &--level-1 {
+    @apply text-3xl;
+  }
+
+  &--level-2 {
+    @apply text-3xl;
+  }
+
+  &--level-3 {
+    @apply text-3xl;
+  }
+
+  & .level-4 {
+    @apply text-3xl;
+  }
+
+  &--level-5 {
+    @apply text-3xl;
+  }
+
+  &--level-6 {
+    @apply text-3xl;
+  }
+}
