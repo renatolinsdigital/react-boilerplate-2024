@@ -1,15 +1,15 @@
-import './styles.scss'
-import reactLogo from './assets/react.svg'
+import "./styles.scss";
+import reactLogo from "./assets/react.svg";
 
 function AppHeader() {
-  
   return (
     <div className="app-header-container">
-    <a href="./" target="_blank">
-      <img src={reactLogo} className="logo react" alt="React logo" />
-    </a> To do App
-  </div>
-  )
+      <a href="./" className="logo-and-title-container">
+        <img src={reactLogo} className="logo" alt="App logo" />
+        <span>To do App</span>
+      </a>
+    </div>
+  );
 }
 
-export default AppHeader
+export default AppHeader;

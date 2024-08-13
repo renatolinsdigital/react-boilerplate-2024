@@ -1,5 +1,29 @@
-/* This file defines where we apply theme fonts */
+/* This file sets up custom fonts for the theme and applies initial configuration */
+
+@font-face {
+  font-weight: normal;
+  font-family: "TitilliumWeb Regular";
+  src: url("../assets/fonts/TitilliumWeb/TitilliumWeb-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: "TitilliumWeb SemiBold";
+  src: url("../assets/fonts/TitilliumWeb/TitilliumWeb-SemiBold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "TitilliumWeb Bold";
+  src: url("../assets/fonts/TitilliumWeb/TitilliumWeb-Bold.ttf")
+    format("truetype");
+}
+
+/* Set base font size for the entire document */
 html,
 body {
-  font-size: 16px;
+  font-size: 16px; /* Ensures 1rem equals 16px */
+  @apply font-text; /* Defined in tailwind.config.js */
 }

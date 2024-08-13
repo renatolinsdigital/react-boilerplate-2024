@@ -25,8 +25,12 @@ module.exports = {
         },
       },
       fontFamily: {
-        title: ['"YourTitleFont"', "sans-serif"],
-        body: ['"YourBodyFont"', "serif"],
+        text: ['"TitilliumWeb Regular"', "sans-serif"], // Body text
+        textBold: ['"TitilliumWeb SemiBold"', "sans-serif"], // Bold text
+        heading: ['"TitilliumWeb Bold"', "sans-serif"], // Main headings (h1)
+        subheading: ['"TitilliumWeb SemiBold"', "sans-serif"], // Subheadings (h2)
+        linkText: ['"TitilliumWeb SemiBold"', "sans-serif"], // Links
+        ui: ['"TitilliumWeb SemiBold"', "sans-serif"], // UI elements like buttons, inputs
       },
     },
   },

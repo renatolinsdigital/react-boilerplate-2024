@@ -9,8 +9,19 @@
   flex-direction: column;
 }
 
+.app-header-container {
+  padding: 1rem;
+}
+
 .app-content {
   flex-grow: 1;
+}
+
+.logo-and-title-container {
+  gap: 0.3rem;
+  display: flex;
+  @apply font-textBold;
+  justify-content: center;
 }
 
 /* Containers */

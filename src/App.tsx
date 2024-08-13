@@ -1,18 +1,17 @@
-import Home from './domain/pages/Home'
-import AppFooter from './domain/components/AppFooter/AppFooter'
-import AppHeader from './domain/components/AppHeader/AppHeader'
+import Home from "./domain/pages/Home";
+import AppFooter from "./domain/components/AppFooter/AppFooter";
+import AppHeader from "./domain/components/AppHeader/AppHeader";
 
 function App() {
-  
   return (
     <div className="app-container">
-      <AppHeader/>
+      <AppHeader />
       <main className="app-content">
-      <Home></Home>
+        <Home></Home>
       </main>
-      <AppFooter/>
+      <AppFooter />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
