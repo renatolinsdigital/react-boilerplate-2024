@@ -35,8 +35,8 @@ body {
 a,
 button,
 select {
-  cursor: pointer;
   color: inherit;
+  cursor: pointer;
   word-wrap: break-word;
   text-decoration: none;
 }
@@ -71,9 +71,9 @@ table {
 
 img,
 svg {
+  height: auto;
   width: "100%";
   max-width: 100%;
-  height: auto;
 }
 
 input,
