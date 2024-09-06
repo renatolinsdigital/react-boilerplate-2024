@@ -9,8 +9,10 @@ module.exports = {
         // Visual Identity Colors
         primary: "#e63946",
         "primary-dark": "#b82635",
+
         secondary: "#1d3557",
         "secondary-dark": "#14233b",
+
         tertiary: "#f1faee",
         "tertiary-dark": "#c1d8ce",
 
@@ -47,7 +49,7 @@ module.exports = {
           "button-text": "#ffffff",
           "app-background": "#ffffff",
           "button-background": "#e63946",
-          "container-background": "#1d3557",
+          "container-background": "#fcfcfc",
           "button-background-hover": "#b82635",
         },
 

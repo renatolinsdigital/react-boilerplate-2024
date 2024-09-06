@@ -29,6 +29,7 @@ body {
   flex: 1;
   height: 100%;
   display: flex;
+  font-size: 16px; /* So that 1rem is 16px */
   -webkit-font-smoothing: antialiased;
 }
 

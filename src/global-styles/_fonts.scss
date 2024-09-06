@@ -1,4 +1,4 @@
-/* This file sets up custom fonts for the theme and applies initial configuration */
+/* This file loads custom fonts for the theme to use*/
 
 @font-face {
   font-weight: normal;
@@ -16,11 +16,4 @@
   font-weight: bold;
   font-family: "TitilliumWeb Bold";
   src: url("@/fonts/TitilliumWeb/TitilliumWeb-Bold.ttf") format("truetype");
-}
-
-/* Set base font size for the entire document */
-html,
-body {
-  font-size: 16px; /* Ensures 1rem equals 16px */
-  @apply font-text; /* Defined in tailwind.config.js */
 }

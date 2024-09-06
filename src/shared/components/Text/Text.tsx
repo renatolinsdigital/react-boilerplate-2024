@@ -1,32 +1,24 @@
 import "./Text.scss";
-import TextProps from "./Text.model";
 import classNames from "classnames";
+import TextProps from "./Text.model";
 
 function Text({
   children,
-  margin = "none",
   className = "",
-  padding = "none",
-  borderWidth = "none",
-  lineHeightName = "default",
-  textColorName = "text",
-  borderColor = "transparent",
+  tag: Tag = "span",
   fontSizeName = "text-default",
   fontWeight = "font-text-regular",
+  lineHeightName = "leading-default",
 }: TextProps) {
   const classes = classNames(
-    margin,
-    padding,
-    className, // ok
-    fontWeight, // ok
-    borderWidth,
-    borderColor,
-    fontSizeName, // ok
-    textColorName,
+    "text",
+    className,
+    fontWeight,
+    fontSizeName,
     lineHeightName
   );
 
-  return <p className={classes}>{children}</p>;
+  return <Tag className={classes}>{children}</Tag>;
 }
 
 export default Text;

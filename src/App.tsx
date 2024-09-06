@@ -3,7 +3,7 @@ import { AppFooter, AppHeader } from "@/domain/components";
 
 function App() {
   return (
-    <div className="app-container light">
+    <div className="app-container font-text light">
       <AppHeader />
       <main className="app-content">
         <Home></Home>

@@ -1,25 +1,26 @@
 .title {
-  &-1 {
+  @apply text-light-text dark:text-dark-text;
+  &.heading-1 {
     @apply text-jumbo font-text-bold;
   }
 
-  &-2 {
+  &.heading-2 {
     @apply text-bigger font-text-semi-bold;
   }
 
-  &-3 {
+  &.heading-3 {
     @apply text-large font-text-semi-bold;
   }
 
-  &-4 {
+  &.heading-4 {
     @apply text-medium font-text-semi-bold;
   }
 
-  &-5 {
+  &.heading-5 {
     @apply text-default;
   }
 
-  &-6 {
+  &.heading-6 {
     @apply text-smaller;
   }
 }
