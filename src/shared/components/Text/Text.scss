@@ -1,0 +1,38 @@
+.text {
+  &.padding-none {
+    @apply p-0;
+  }
+  &.padding-small {
+    @apply p-2;
+  }
+  &.padding-medium {
+    @apply p-4;
+  }
+  &.padding-large {
+    @apply p-6;
+  }
+  &.margin-none {
+    @apply m-0;
+  }
+  &.margin-small {
+    @apply m-2;
+  }
+  &.margin-medium {
+    @apply m-4;
+  }
+  &.margin-large {
+    @apply m-6;
+  }
+  &.border-none {
+    @apply border-0;
+  }
+  &.border-thin {
+    @apply border;
+  }
+  &.border-medium {
+    @apply border-2;
+  }
+  &.border-thick {
+    @apply border-4;
+  }
+}

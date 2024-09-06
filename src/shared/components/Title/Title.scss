@@ -1,25 +1,25 @@
 .title {
   &-1 {
-    @apply text-3xl; // (h1)
+    @apply text-jumbo font-text-bold;
   }
 
   &-2 {
-    @apply text-2xl; // (h2)
+    @apply text-bigger font-text-semi-bold;
   }
 
   &-3 {
-    @apply text-xl; // (h3)
+    @apply text-large font-text-semi-bold;
   }
 
   &-4 {
-    @apply text-lg; // (h4)
+    @apply text-medium font-text-semi-bold;
   }
 
   &-5 {
-    @apply text-base; // (h5)
+    @apply text-default;
   }
 
   &-6 {
-    @apply text-sm; // (h6)
+    @apply text-smaller;
   }
 }

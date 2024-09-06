@@ -1,16 +1,16 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx,html,scss}"],
-  darkMode: "class", // Enables dark mode by adding a 'dark' class to the <html> or <body>
+  darkMode: "class", // Enables dark mode by adding a 'dark' class to a wrapper html tag
   theme: {
+    // Every entry in 'theme' is to be aligned with a Design System and it will be nice
+    // if this Design System takes in consideration what is already present in Tailwind
     extend: {
       colors: {
         // Visual Identity Colors
         primary: "#e63946",
         "primary-dark": "#b82635",
-
         secondary: "#1d3557",
         "secondary-dark": "#14233b",
-
         tertiary: "#f1faee",
         "tertiary-dark": "#c1d8ce",
 
@@ -64,12 +64,41 @@ module.exports = {
         },
       },
       fontFamily: {
-        text: ['"TitilliumWeb Regular"', "sans-serif"], // Body text
-        "text-bold": ['"TitilliumWeb SemiBold"', "sans-serif"], // Bold/Emphasis text
-        heading: ['"TitilliumWeb Bold"', "sans-serif"], // Main headings (h1)
-        subheading: ['"TitilliumWeb SemiBold"', "sans-serif"], // Subheadings (h2, h3, etc.)
-        "link-text": ['"TitilliumWeb SemiBold"', "sans-serif"], // Links
-        ui: ['"TitilliumWeb SemiBold"', "sans-serif"], // UI elements like buttons, inputs
+        text: ['"TitilliumWeb Regular"', "sans-serif"],
+        "text-bold": ['"TitilliumWeb Bold"', "sans-serif"],
+        "text-semi-bold": ['"TitilliumWeb SemiBold"', "sans-serif"],
+      },
+      fontSize: {
+        smallest: "0.75rem", // Equivalent to text-xs
+        smaller: "0.875rem", // Equivalent to text-sm
+        default: "1rem", // Equivalent to text-base
+        medium: "1.125rem", // Equivalent to text-lg
+        large: "1.25rem", // Equivalent to text-xl
+        bigger: "1.5rem", // Equivalent to text-2xl
+        jumbo: "2rem", // Equivalent to text-3xl
+        biggest: "2.25rem", // Equivalent to text-4xl
+      },
+      fontWeight: {
+        regular: 400,
+        semiBold: 600,
+        bold: 700,
+      },
+      lineHeight: {
+        small: "1",
+        default: "1.2",
+        tall: "1.5",
+        taller: "1.8",
+        big: "2",
+        biggest: "2.4",
+      },
+      transitionDuration: {
+        DEFAULT: "200ms",
+      },
+      transitionProperty: {
+        DEFAULT: "all",
+      },
+      transitionTimingFunction: {
+        DEFAULT: "ease",
       },
     },
   },
