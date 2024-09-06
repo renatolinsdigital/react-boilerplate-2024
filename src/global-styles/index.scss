@@ -1,9 +1,16 @@
 /* Tailwind imports */
+
 .tailwind {
   @tailwind base;
   @tailwind components;
   @tailwind utilities;
 }
+
+/* 
+Ps. The .tailwind wrapper restricts Tailwind to components (which automatically receive this class). 
+This is useful if you want to ensure that every style comes from a component (every UI element is a component). 
+You can remove it if you want the flexibility to use Tailwind styles directly with HTML tags. 
+*/
 
 /* Project Imports */
 @import "_reset.scss";
