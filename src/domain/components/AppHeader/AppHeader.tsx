@@ -1,12 +1,15 @@
 import "./AppHeader.scss";
-import reactLogo from "@/domain/images/react.svg";
+import { Text } from "@/shared/components";
+import myLogo from "@/domain/images/logo.svg";
 
 function AppHeader() {
   return (
     <div className="app-header-container">
       <a href="./" className="logo-and-title-container">
-        <img src={reactLogo} className="logo" alt="App logo" />
-        <span>Boilerplate App</span>
+        <img src={myLogo} className="logo max-h-8" alt="App logo" />
+        <Text className="text-white ml-2" fontSizeName="text-bigger">
+          Boilerplate App
+        </Text>
       </a>
     </div>
   );

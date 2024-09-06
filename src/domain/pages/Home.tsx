@@ -6,7 +6,7 @@ function Home() {
 
   return (
     <div className="page-container">
-      <Title text="To Do App" />
+      <Title>To Do App</Title>
       <div className="content-container">
         <Button onClick={() => setCount((count) => count + 1)}>Click me</Button>
         <Text>Count is {count}</Text>

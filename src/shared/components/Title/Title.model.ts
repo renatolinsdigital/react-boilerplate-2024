@@ -1,5 +1,5 @@
 export interface TitleProps {
-  text: string;
   className?: string;
+  children: React.ReactNode;
   tag?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
 }
