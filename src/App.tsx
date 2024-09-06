@@ -1,10 +1,9 @@
-import Home from "./domain/pages/Home";
-import AppFooter from "./domain/components/AppFooter/AppFooter";
-import AppHeader from "./domain/components/AppHeader/AppHeader";
+import Home from "@/domain/pages/Home";
+import { AppFooter, AppHeader } from "@/domain/components";
 
 function App() {
   return (
-    <div className="app-container">
+    <div className="app-container light">
       <AppHeader />
       <main className="app-content">
         <Home></Home>

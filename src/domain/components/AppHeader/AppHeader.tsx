@@ -1,4 +1,4 @@
-import "./styles.scss";
+import "./AppHeader.scss";
 import reactLogo from "@/domain/images/react.svg";
 
 function AppHeader() {

@@ -1,4 +1,4 @@
-/* Layout */
+/* Layout - CSS/Sass styles for the overall app structure*/
 
 .app-container {
   margin: 0;
@@ -20,7 +20,6 @@
 .logo-and-title-container {
   gap: 0.3rem;
   display: flex;
-  @apply font-textBold;
   justify-content: center;
 }
 
@@ -29,5 +28,16 @@
 .page-container {
   width: 100%;
   height: 100%;
-  padding: 0.5rem;
+  padding: 1rem;
+}
+
+.content-container {
+  flex: 1;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
 }

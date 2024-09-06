@@ -1,0 +1,13 @@
+.button {
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  @apply px-4 py-1 rounded-md font-semibold transition-colors duration-300;
+  @apply text-light-button-text bg-light-button-background hover:bg-light-button-background-hover;
+  @apply dark:text-dark-button-text dark:bg-dark-button-background dark:hover:bg-dark-button-background-hover;
+
+  &:disabled {
+    @apply cursor-not-allowed opacity-50;
+  }
+}

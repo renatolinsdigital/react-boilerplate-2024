@@ -1,25 +1,25 @@
 .title {
-  &--level-1 {
-    @apply text-3xl;
+  &-1 {
+    @apply text-3xl; // (h1)
   }
 
-  &--level-2 {
-    @apply text-3xl;
+  &-2 {
+    @apply text-2xl; // (h2)
   }
 
-  &--level-3 {
-    @apply text-3xl;
+  &-3 {
+    @apply text-xl; // (h3)
   }
 
-  & .level-4 {
-    @apply text-3xl;
+  &-4 {
+    @apply text-lg; // (h4)
   }
 
-  &--level-5 {
-    @apply text-3xl;
+  &-5 {
+    @apply text-base; // (h5)
   }
 
-  &--level-6 {
-    @apply text-3xl;
+  &-6 {
+    @apply text-sm; // (h6)
   }
 }
