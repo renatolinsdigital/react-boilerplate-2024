@@ -1,4 +1,4 @@
 export interface TitleProps {
-    text: string
-    level?: '1' | '2' | '3' | '4' | '5' | '6'
+  text: string;
+  tag?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
 }

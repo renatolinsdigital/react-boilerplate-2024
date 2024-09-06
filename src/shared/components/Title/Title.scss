@@ -1,26 +1,26 @@
 .title {
   @apply text-light-text dark:text-dark-text;
-  &.heading-1 {
+  &.heading-h1 {
     @apply text-jumbo font-text-bold;
   }
 
-  &.heading-2 {
+  &.heading-h2 {
     @apply text-bigger font-text-semi-bold;
   }
 
-  &.heading-3 {
+  &.heading-h3 {
     @apply text-large font-text-semi-bold;
   }
 
-  &.heading-4 {
+  &.heading-h4 {
     @apply text-medium font-text-semi-bold;
   }
 
-  &.heading-5 {
+  &.heading-h5 {
     @apply text-default;
   }
 
-  &.heading-6 {
+  &.heading-h6 {
     @apply text-smaller;
   }
 }
