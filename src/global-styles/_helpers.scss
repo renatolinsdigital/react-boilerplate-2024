@@ -1,0 +1,18 @@
+.scrollable-container {
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 0;
+    @apply bg-tertiary;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    border-radius: 12px;
+    @apply bg-secondary-dark;
+  }
+}
