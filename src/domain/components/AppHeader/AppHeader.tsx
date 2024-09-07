@@ -4,7 +4,7 @@ import myLogo from "@/domain/images/logo.svg";
 
 function AppHeader() {
   return (
-    <div className="app-header-container">
+    <div className="header">
       <a href="./" className="logo-and-title-container">
         <img src={myLogo} className="logo max-h-8" alt="App logo" />
         <Text className="text-white ml-2" fontSizeName="text-bigger">

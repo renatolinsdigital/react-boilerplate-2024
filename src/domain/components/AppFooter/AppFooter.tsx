@@ -3,7 +3,7 @@ import { Text } from "@/shared/components";
 
 function AppFooter() {
   return (
-    <div className="app-footer-container flex justify-center">
+    <div className="footer flex justify-center">
       <Text className="text-neutral-white ">
         Developed by
         <a
